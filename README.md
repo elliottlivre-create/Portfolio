@@ -12,11 +12,30 @@ Customer source code is not published here. Each project below has a short descr
 
 ### ProTaskia – work order app
 
-A work order system used daily by a Swedish fire-safety company. Field staff use shared iPads to pick their team for the day, open their work orders and report status, hours, materials and notes. Admins plan the day's teams, create and assign orders, review 90 days of history and mark jobs as invoiced from a desktop view.
+A work order system used daily by a Swedish fire-safety company, replacing paper work orders. Field staff use shared iPads to pick their team for the day, open their work orders and report status, hours, materials and notes. Admins plan the day's teams, create and assign orders, review 90 days of history and mark jobs as invoiced from a desktop view.
 
 - **Users:** field technicians on iPad, admins on desktop
 - **Highlights:** role-based access (admin vs. shared field account), staff register kept separate from login accounts, iPad-first UI built for non-technical users
 - **Status:** in production
+
+### Inventory app
+
+An inventory system for a service company that keeps track of materials in the company cars and in the warehouse, so the team knows what is in stock and where it is.
+
+- **Highlights:** separate views for cars, warehouse and office, change log with name and timestamp on every update
+- **Status:** in production
+
+### CRM system
+
+A customer register built around how a small business actually works: customers, contact history, quotes and follow-ups in one place instead of spread across spreadsheets and inboxes.
+
+### Opelio Lead Finder – native macOS app
+
+An internal sales tool I built for Opelio. It finds Swedish businesses that have no registered website, shows them on a 3D map and moves them through a sales pipeline until they become customers.
+
+- **Features:** search by city and industry, clustered 3D map, saved leads with CSV export, drag-and-drop pipeline, customer register with agreements, revenue forecast (MRR/ARR), analytics, command palette (⌘K)
+- **Tech:** Swift, SwiftUI, MapKit, SwiftData, Swift Charts, URLSession and Keychain, no third-party dependencies
+- **Data:** Google Maps business data via the Outscraper API, with a local cost guard that requires confirmation before any paid search, and an import path for CSV/JSON exports. API key stored in the macOS Keychain, unsaved data purged after 30 days
 
 ---
 
@@ -38,6 +57,12 @@ Company website for Opelio Tech Solutions. A landing page plus service pages for
 - **Tech:** hand-written HTML, CSS and JavaScript (no framework), self-hosted fonts so no visitor data goes to Google
 - **Hosting:** Cloudflare Pages with automatic deploys from `main`, DNS on Cloudflare
 - **SEO:** schema.org markup, sitemap, robots.txt, `llms.txt` for AI assistants, Google Search Console and Bing Webmaster Tools
+
+### protektia.se
+
+Website for Protektia Brandskydd, a fire-safety company in the Stockholm area. Rebuilt and updated to bring in more customer enquiries.
+
+**Live:** [protektia.se](https://protektia.se)
 
 ---
 
