@@ -44,6 +44,8 @@ An internal sales tool I built for Opelio. It finds Swedish businesses that have
 - **Tech:** Swift, SwiftUI, MapKit, SwiftData, Swift Charts, URLSession and Keychain, no third-party dependencies
 - **Data:** Google Maps business data via the Outscraper API, with a local cost guard that requires confirmation before any paid search, and an import path for CSV/JSON exports. API key stored in the macOS Keychain, unsaved data purged after 30 days
 
+![Lead Finder – overview](screenshots/lead-finder-overview.jpg)
+
 ---
 
 ## Websites
