@@ -16,18 +16,25 @@ A work order system used daily by a Swedish fire-safety company, replacing paper
 
 - **Users:** field technicians on iPad, admins on desktop
 - **Highlights:** role-based access (admin vs. shared field account), staff register kept separate from login accounts, iPad-first UI built for non-technical users
+- **Hosting:** Firebase Hosting
 - **Status:** in production
+
+![ProTaskia – login](screenshots/protaskia-login.jpg)
 
 ### Inventory app
 
 An inventory system for a service company that keeps track of materials in the company cars and in the warehouse, so the team knows what is in stock and where it is.
 
-- **Highlights:** separate views for cars, warehouse and office, change log with name and timestamp on every update
+- **Highlights:** separate views for cars, warehouse and office, change log with name and timestamp on every update, light and dark mode
 - **Status:** in production
+
+![Inventory app – stock for one car](screenshots/inventory-app.jpg)
 
 ### CRM system
 
-A customer register built around how a small business actually works: customers, contact history, quotes and follow-ups in one place instead of spread across spreadsheets and inboxes.
+A customer register built around how a small business actually works: customers, contact history, quotes and follow-ups in one place instead of spread across spreadsheets and inboxes. The company view shows revenue, profit and key ratios year by year, calculated straight from the annual accounts.
+
+![CRM – company view with key figures](screenshots/crm-dashboard.jpg)
 
 ### Opelio Lead Finder – native macOS app
 
