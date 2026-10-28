@@ -21,6 +21,8 @@ A work order system used daily by a Swedish fire-safety company, replacing paper
 
 ![ProTaskia – login](screenshots/protaskia-login.jpg)
 
+![ProTaskia – admin view, today's planning](screenshots/protaskia-admin.jpg)
+
 ### Inventory app
 
 An inventory system for a service company that keeps track of materials in the company cars and in the warehouse, so the team knows what is in stock and where it is.
