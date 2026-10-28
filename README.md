@@ -75,6 +75,16 @@ Website for Protektia Brandskydd, a fire-safety company in the Stockholm area. R
 
 **Live:** [protektia.se](https://protektia.se)
 
+![protektia.se – start page](screenshots/protektia-desktop.png)
+
+<p>
+  <img src="screenshots/protektia-service-page.png" alt="protektia.se – services page" width="66%">
+  <img src="screenshots/protektia-mobile.png" alt="protektia.se – mobile" width="30%">
+</p>
+
+- **Tech:** Astro and Tailwind CSS, 17 static pages with service pages, a fire-safety guide, FAQ and a contact widget
+- **SEO:** generated sitemap, local search focus on fire safety in Stockholm
+
 ---
 
 ## Contact
