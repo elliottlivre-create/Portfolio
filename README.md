@@ -85,6 +85,24 @@ Website for Protektia Brandskydd, a fire-safety company in the Stockholm area. R
 - **Tech:** Astro and Tailwind CSS, 17 static pages with service pages, a fire-safety guide, FAQ and a contact widget
 - **SEO:** generated sitemap, local search focus on fire safety in Stockholm
 
+### protektiaforvaltning.se
+
+Website for Protektia Förvaltning, the sister company of Protektia Brandskydd, offering technical property management: property maintenance, shelter servicing, and fire alarm and sprinkler upkeep. Built from scratch with a light, architectural look and full-screen film of Stockholm in the hero. Live since October 2026.
+
+**Live:** [protektiaforvaltning.se](https://protektiaforvaltning.se)
+
+![protektiaforvaltning.se – start page](screenshots/forvaltning-desktop.jpg)
+
+<p>
+  <img src="screenshots/forvaltning-service-page.png" alt="protektiaforvaltning.se – services page" width="66%">
+  <img src="screenshots/forvaltning-mobile.jpg" alt="protektiaforvaltning.se – mobile" width="30%">
+</p>
+
+- **Tech:** Astro and TypeScript, static pages with a page per service, about and contact pages, self-hosted fonts, no cookies or analytics
+- **Hero video:** several clips that play in sequence with crossfades, a smaller portrait file for mobile, and no video at all with reduced motion or Save-Data, falling back to a poster image
+- **Hosting:** Loopia, with automatic FTPS deploys from GitHub Actions on every merge to `main`
+- **SEO:** schema.org markup and generated sitemap
+
 ---
 
 ## Contact
