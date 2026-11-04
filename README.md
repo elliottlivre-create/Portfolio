@@ -48,6 +48,28 @@ An internal sales tool I built for Opelio. It finds Swedish businesses that have
 
 ![Lead Finder – overview](screenshots/lead-finder-overview.jpg)
 
+### JobbApp – AI job-search assistant
+
+A personal job-search web app. It fetches jobs from Platsbanken (the Swedish Public Employment Service), lets AI rate how well each job fits the user's CVs and goals, and writes an ATS-friendly CV and cover letter tailored to each ad. Applications are tracked on a status board. Built for one real user, so the live app is private. Screenshots use made-up data.
+
+- **AI job matching:** every job gets a 0–100 score with a one-line summary, strengths and gaps, weighing experience, wishes, personality fit and realistic interview chances. It reads the full ad, including Platsbanken's structured requirements (must-have, nice-to-have, driving licence, scope).
+- **Tailored applications:** CV and cover letter rewritten per job at three levels, in Swedish or English, using the ad's own keywords where they match real experience. Missing requirements are listed instead of invented. Strict rules keep the text from sounding or looking AI-written (no clichés, no dashes, varied structure).
+- **Cost control:** the user's own Claude Pro plan can do the writing for free (the app copies a ready prompt and parses the answer back), Claude Haiku handles scoring and parsing for fractions of a cent, and a daily AI quota stops runaway costs.
+- **Bring your own jobs:** paste a LinkedIn or company link. Platsbanken links use the open API, career pages are read through their JSON-LD job data, and pasted LinkedIn text is structured by AI. Duplicates are detected.
+- **Documents:** several CVs and old cover letters (PDF, Word or text), plus an editable base letter that every tailored letter builds on.
+- **Tech:** React, Vite and TypeScript with an Apple-style "liquid glass" UI in light and dark mode. Supabase for auth, Postgres, storage and Deno Edge Functions. Claude API. Hosted as a Cloudflare Worker with static assets.
+- **Security:** row-level security on every table and file, API keys only in server-side secrets, sign-ups closed, an email allowlist for the AI functions, rate-limited sign-ins, and SSRF-safe link fetching. Covered by Deno unit tests, Postgres RLS tests and Playwright UI tests.
+
+<p>
+  <img src="screenshots/jobbapp-login.jpg" alt="JobbApp – login" width="49%">
+  <img src="screenshots/jobbapp-dashboard.jpg" alt="JobbApp – dashboard with AI-rated jobs" width="49%">
+</p>
+
+<p>
+  <img src="screenshots/jobbapp-job-match.jpg" alt="JobbApp – job with AI match score (dark mode)" width="66%">
+  <img src="screenshots/jobbapp-mobile.jpg" alt="JobbApp – mobile" width="30%">
+</p>
+
 ---
 
 ## Websites
